@@ -1,3 +1,15 @@
+# 👨‍💻 Autor
+
+**Pablo Mejías Buitrago**
+
+Proyecto de modelado probabilístico aplicado al fútbol:
+- Simulación Monte Carlo
+- Sistema de rating Elo dinámico
+- Generación de goles mediante Poisson calibrado
+
+🔗 GitHub: https://github.com/pabmejbui
+🔗 Streamlit app: https://simulador-descenso-laliga-pabmejbui.streamlit.app/
+
 # ⚽ Simulador de Descenso - La Liga (Modelo Probabilístico PRO)
 
 Simulador avanzado de probabilidades de descenso en La Liga basado en un modelo estadístico calibrado (Elo + Poisson) y simulaciones Monte Carlo.
