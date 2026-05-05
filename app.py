@@ -73,9 +73,11 @@ st.sidebar.title("⚙️ Configuración")
 
 N = st.sidebar.slider(
     "Número de simulaciones",
-    1000, 50000, 10000, 1000,
-    key="sim_slider"
+    1000, 20000, 5000, 1000,
 )
+
+N = min(N, 15000)
+st.sidebar.caption("⚠️ Valores altos pueden ralentizar la app")
 
 selected_team = st.sidebar.selectbox(
     "Selecciona equipo",
