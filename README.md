@@ -8,6 +8,7 @@ Proyecto de modelado probabilístico aplicado al fútbol:
 - Generación de goles mediante Poisson calibrado
 
 🔗 GitHub: https://github.com/pabmejbui
+
 🔗 Streamlit app: https://simulador-descenso-laliga-pabmejbui.streamlit.app/
 
 # ⚽ Simulador de Descenso - La Liga (Modelo Probabilístico PRO)
