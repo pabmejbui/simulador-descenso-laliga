@@ -9,7 +9,7 @@ Simulador avanzado de probabilidades de descenso en La Liga basado en un modelo 
 - Simula miles de finales de liga en segundos
 - Calcula probabilidades realistas de descenso
 - Modela resultados partido a partido (no heurístico)
-- Integra dinámica real de forma (racha automática vía Elo)
+- Integra dinámica real de forma (Elo dinámico)
 - Genera clasificación probabilística completa
 - Permite análisis por equipo (escenarios, puntos necesarios)
 
@@ -20,25 +20,38 @@ Simulador avanzado de probabilidades de descenso en La Liga basado en un modelo 
 Este simulador NO usa reglas simples. Está basado en un enfoque similar a modelos tipo FiveThirtyEight:
 
 ### 🔹 1. Rating dinámico (Elo)
+
 - Cada equipo tiene un nivel de fuerza dinámico
 - Se actualiza tras cada partido (real y simulado)
 - Incluye:
-  - ventaja de local
+  - ventaja de local (~85 Elo)
   - margen de victoria
-  - rachas implícitas (forma real)
+  - evolución de forma implícita
+
+---
 
 ### 🔹 2. Probabilidades reales
-- Probabilidad de victoria calculada con función logística:
+
+Se calcula la probabilidad de victoria mediante una función logística:
+
 `P(win) = 1 / (1 + 10^(-ΔElo / 400))`
 
+
+---
+
 ### 🔹 3. Generación de goles (Poisson calibrado)
+
 - Basado en medias reales del fútbol:
-- ⚽ Local ≈ 1.43 goles
-- ⚽ Visitante ≈ 1.12 goles
-- Ajustado según la diferencia de nivel entre equipos
+  - ⚽ Local ≈ 1.43 goles
+  - ⚽ Visitante ≈ 1.12 goles
+- Ajustado dinámicamente según la diferencia de nivel entre equipos
+
+---
 
 ### 🔹 4. Simulación Monte Carlo
+
 - Se repite la temporada miles de veces
+- Cada simulación evoluciona de forma independiente
 - Se obtiene una distribución completa de resultados
 
 ---
@@ -59,11 +72,11 @@ Este simulador NO usa reglas simples. Está basado en un enfoque similar a model
 
 ## 🧩 Qué lo hace potente
 
-✔ No depende de "últimos 5 partidos" artificiales  
-✔ La forma se integra automáticamente vía Elo  
-✔ Cada simulación evoluciona dinámicamente  
-✔ Modelo coherente con fútbol real  
-✔ Sensible a rachas, calendario y nivel  
+✔ Modelo probabilístico realista  
+✔ Evolución dinámica partido a partido  
+✔ No depende de reglas artificiales  
+✔ Sensible a nivel, calendario y resultados previos  
+✔ Usa criterios reales de desempate (H2H)  
 
 ---
 
@@ -77,13 +90,3 @@ Incluye una app en Streamlit donde puedes:
 - Visualizar distribuciones de posiciones
 
 ---
-
-## ▶️ Cómo ejecutar
-
-### 1. Instalar dependencias
-```bash
-pip install -r requirements.txt
-
-### 2. Lanzar la app
-```bash
-streamlit run app.py
