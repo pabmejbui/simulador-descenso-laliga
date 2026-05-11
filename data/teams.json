@@ -1,53 +1,53 @@
 {
   "Barcelona": {
-    "points": 88,
-    "gf": 89,
+    "points": 91,
+    "gf": 91,
     "ga": 31
   },
   "Real Madrid": {
     "points": 77,
     "gf": 70,
-    "ga": 31
+    "ga": 33
   },
   "Villarreal": {
-    "points": 68,
-    "gf": 64,
-    "ga": 39
+    "points": 69,
+    "gf": 65,
+    "ga": 40
   },
   "Atletico": {
     "points": 63,
     "gf": 58,
-    "ga": 37
+    "ga": 38
   },
   "Betis": {
-    "points": 53,
-    "gf": 52,
-    "ga": 41
+    "points": 54,
+    "gf": 54,
+    "ga": 43
   },
   "Celta": {
-    "points": 47,
-    "gf": 48,
+    "points": 50,
+    "gf": 49,
     "ga": 44
   },
   "Getafe": {
-    "points": 44,
+    "points": 45,
     "gf": 28,
     "ga": 36
+  },
+  "Real Sociedad": {
+    "points": 44,
+    "gf": 54,
+    "ga": 55
   },
   "Athletic": {
     "points": 44,
     "gf": 40,
-    "ga": 50
-  },
-  "Real Sociedad": {
-    "points": 43,
-    "gf": 52,
-    "ga": 53
+    "ga": 51
   },
   "Osasuna": {
     "points": 42,
-    "gf": 40,
-    "ga": 42
+    "gf": 42,
+    "ga": 45
   },
   "Rayo": {
     "points": 42,
@@ -55,47 +55,47 @@
     "ga": 41
   },
   "Valencia": {
-    "points": 39,
-    "gf": 37,
+    "points": 42,
+    "gf": 38,
     "ga": 50
+  },
+  "Sevilla": {
+    "points": 40,
+    "gf": 43,
+    "ga": 56
   },
   "Espanyol": {
     "points": 39,
-    "gf": 37,
-    "ga": 51
-  },
-  "Elche": {
-    "points": 38,
-    "gf": 45,
+    "gf": 38,
     "ga": 53
   },
   "Mallorca": {
-    "points": 38,
-    "gf": 42,
-    "ga": 51
+    "points": 39,
+    "gf": 43,
+    "ga": 52
+  },
+  "Elche": {
+    "points": 39,
+    "gf": 46,
+    "ga": 54
   },
   "Girona": {
     "points": 38,
     "gf": 36,
     "ga": 51
   },
-  "Sevilla": {
+  "Alaves": {
     "points": 37,
     "gf": 41,
-    "ga": 55
-  },
-  "Alaves": {
-    "points": 36,
-    "gf": 40,
-    "ga": 53
+    "ga": 54
   },
   "Levante": {
-    "points": 33,
-    "gf": 38,
-    "ga": 55
+    "points": 36,
+    "gf": 41,
+    "ga": 57
   },
   "Oviedo": {
-    "points": 28,
+    "points": 29,
     "gf": 26,
     "ga": 54
   }
