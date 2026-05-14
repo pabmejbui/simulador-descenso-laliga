@@ -41,16 +41,11 @@ Este simulador NO usa reglas simples. Está basado en un enfoque similar a model
   - margen de victoria
   - evolución de forma implícita
 
----
-
 ### 🔹 2. Probabilidades reales
 
 Se calcula la probabilidad de victoria mediante una función logística:
 
 `P(win) = 1 / (1 + 10^(-ΔElo / 400))`
-
-
----
 
 ### 🔹 3. Generación de goles (Poisson calibrado)
 
@@ -59,15 +54,11 @@ Se calcula la probabilidad de victoria mediante una función logística:
   - ⚽ Visitante ≈ 1.12 goles
 - Ajustado dinámicamente según la diferencia de nivel entre equipos
 
----
-
 ### 🔹 4. Simulación Monte Carlo
 
 - Se repite la temporada miles de veces
 - Cada simulación evoluciona de forma independiente
 - Se obtiene una distribución completa de resultados
-
----
 
 ## 📊 Métricas
 
@@ -81,8 +72,6 @@ Se calcula la probabilidad de victoria mediante una función logística:
 | 🟡 90% | Puntos con alta probabilidad de salvarse |
 | 🔴 Mínimo | Escenario optimista |
 
----
-
 ## 🧩 Qué lo hace potente
 
 ✔ Modelo probabilístico realista  
@@ -90,8 +79,6 @@ Se calcula la probabilidad de victoria mediante una función logística:
 ✔ No depende de reglas artificiales  
 ✔ Sensible a nivel, calendario y resultados previos  
 ✔ Usa criterios reales de desempate (H2H)  
-
----
 
 ## 🖥️ Aplicación interactiva
 
@@ -102,4 +89,3 @@ Incluye una app en Streamlit donde puedes:
 - Ver probabilidades en tiempo real
 - Visualizar distribuciones de posiciones
 
----
