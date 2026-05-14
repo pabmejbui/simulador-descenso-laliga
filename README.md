@@ -15,8 +15,6 @@ Proyecto de modelado probabilístico aplicado al fútbol:
 
 Simulador avanzado de probabilidades de descenso en La Liga basado en un modelo estadístico calibrado (Elo + Poisson) y simulaciones Monte Carlo.
 
----
-
 ## 🚀 Qué hace
 
 - Simula miles de finales de liga en segundos
@@ -25,8 +23,6 @@ Simulador avanzado de probabilidades de descenso en La Liga basado en un modelo 
 - Integra dinámica real de forma (Elo dinámico)
 - Genera clasificación probabilística completa
 - Permite análisis por equipo (escenarios, puntos necesarios)
-
----
 
 ## 🧠 Motor del modelo
 
