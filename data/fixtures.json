@@ -1,25 +1,5 @@
 [
   [
-    "Osasuna",
-    "Atletico"
-  ],
-  [
-    "Espanyol",
-    "Athletic"
-  ],
-  [
-    "Villarreal",
-    "Sevilla"
-  ],
-  [
-    "Alaves",
-    "Barcelona"
-  ],
-  [
-    "Getafe",
-    "Mallorca"
-  ],
-  [
     "Valencia",
     "Rayo"
   ],
@@ -70,6 +50,42 @@
   [
     "Sevilla",
     "Real Madrid"
+  ],
+  [
+    "Alaves",
+    "Rayo"
+  ],
+  [
+    "Betis",
+    "Levante"
+  ],
+  [
+    "Celta",
+    "Sevilla"
+  ],
+  [
+    "Espanyol",
+    "Real Sociedad"
+  ],
+  [
+    "Getafe",
+    "Osasuna"
+  ],
+  [
+    "Mallorca",
+    "Oviedo"
+  ],
+  [
+    "Real Madrid",
+    "Athletic"
+  ],
+  [
+    "Valencia",
+    "Barcelona"
+  ],
+  [
+    "Girona",
+    "Elche"
   ],
   [
     "Villarreal",

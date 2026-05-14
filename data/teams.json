@@ -2,7 +2,7 @@
   "Barcelona": {
     "points": 91,
     "gf": 91,
-    "ga": 31
+    "ga": 32
   },
   "Real Madrid": {
     "points": 77,
@@ -11,17 +11,17 @@
   },
   "Villarreal": {
     "points": 69,
-    "gf": 65,
-    "ga": 40
+    "gf": 67,
+    "ga": 43
   },
   "Atletico": {
-    "points": 63,
-    "gf": 58,
-    "ga": 38
+    "points": 66,
+    "gf": 60,
+    "ga": 39
   },
   "Betis": {
-    "points": 55,
-    "gf": 55,
+    "points": 57,
+    "gf": 56,
     "ga": 44
   },
   "Celta": {
@@ -30,9 +30,9 @@
     "ga": 47
   },
   "Getafe": {
-    "points": 45,
-    "gf": 28,
-    "ga": 36
+    "points": 48,
+    "gf": 31,
+    "ga": 37
   },
   "Real Sociedad": {
     "points": 44,
@@ -42,7 +42,12 @@
   "Athletic": {
     "points": 44,
     "gf": 40,
-    "ga": 51
+    "ga": 53
+  },
+  "Sevilla": {
+    "points": 43,
+    "gf": 46,
+    "ga": 58
   },
   "Rayo": {
     "points": 43,
@@ -51,28 +56,33 @@
   },
   "Osasuna": {
     "points": 42,
-    "gf": 42,
-    "ga": 45
+    "gf": 43,
+    "ga": 47
   },
   "Valencia": {
     "points": 42,
     "gf": 38,
     "ga": 50
   },
-  "Elche": {
-    "points": 40,
-    "gf": 47,
-    "ga": 55
+  "Espanyol": {
+    "points": 42,
+    "gf": 40,
+    "ga": 53
   },
-  "Sevilla": {
+  "Alaves": {
     "points": 40,
-    "gf": 43,
+    "gf": 42,
+    "ga": 54
+  },
+  "Elche": {
+    "points": 39,
+    "gf": 47,
     "ga": 56
   },
   "Mallorca": {
     "points": 39,
-    "gf": 43,
-    "ga": 52
+    "gf": 44,
+    "ga": 55
   },
   "Levante": {
     "points": 39,
@@ -83,16 +93,6 @@
     "points": 39,
     "gf": 37,
     "ga": 52
-  },
-  "Espanyol": {
-    "points": 39,
-    "gf": 38,
-    "ga": 53
-  },
-  "Alaves": {
-    "points": 37,
-    "gf": 41,
-    "ga": 54
   },
   "Oviedo": {
     "points": 29,
