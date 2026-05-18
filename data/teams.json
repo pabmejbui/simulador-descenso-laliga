@@ -1,102 +1,102 @@
 {
   "Barcelona": {
-    "points": 91,
-    "gf": 91,
-    "ga": 32
+    "points": 94,
+    "gf": 94,
+    "ga": 33
   },
   "Real Madrid": {
-    "points": 77,
-    "gf": 70,
+    "points": 83,
+    "gf": 73,
     "ga": 33
   },
   "Villarreal": {
     "points": 69,
     "gf": 67,
-    "ga": 43
+    "ga": 45
   },
   "Atletico": {
-    "points": 66,
-    "gf": 60,
+    "points": 69,
+    "gf": 61,
     "ga": 39
   },
   "Betis": {
     "points": 57,
-    "gf": 56,
-    "ga": 44
+    "gf": 57,
+    "ga": 47
   },
   "Celta": {
-    "points": 50,
-    "gf": 51,
-    "ga": 47
+    "points": 51,
+    "gf": 52,
+    "ga": 48
   },
   "Getafe": {
     "points": 48,
     "gf": 31,
-    "ga": 37
+    "ga": 38
+  },
+  "Rayo": {
+    "points": 47,
+    "gf": 39,
+    "ga": 43
+  },
+  "Valencia": {
+    "points": 46,
+    "gf": 43,
+    "ga": 54
   },
   "Real Sociedad": {
-    "points": 44,
-    "gf": 54,
-    "ga": 55
+    "points": 45,
+    "gf": 58,
+    "ga": 60
+  },
+  "Espanyol": {
+    "points": 45,
+    "gf": 42,
+    "ga": 54
   },
   "Athletic": {
-    "points": 44,
-    "gf": 40,
-    "ga": 53
+    "points": 45,
+    "gf": 41,
+    "ga": 54
   },
   "Sevilla": {
     "points": 43,
     "gf": 46,
-    "ga": 58
+    "ga": 59
   },
-  "Rayo": {
+  "Alaves": {
     "points": 43,
-    "gf": 36,
-    "ga": 42
+    "gf": 43,
+    "ga": 54
+  },
+  "Levante": {
+    "points": 42,
+    "gf": 46,
+    "ga": 59
   },
   "Osasuna": {
     "points": 42,
-    "gf": 43,
-    "ga": 47
-  },
-  "Valencia": {
-    "points": 42,
-    "gf": 38,
-    "ga": 50
-  },
-  "Espanyol": {
-    "points": 42,
-    "gf": 40,
-    "ga": 53
-  },
-  "Alaves": {
-    "points": 40,
-    "gf": 42,
-    "ga": 54
+    "gf": 44,
+    "ga": 49
   },
   "Elche": {
-    "points": 39,
-    "gf": 47,
+    "points": 42,
+    "gf": 48,
     "ga": 56
+  },
+  "Girona": {
+    "points": 40,
+    "gf": 38,
+    "ga": 54
   },
   "Mallorca": {
     "points": 39,
     "gf": 44,
-    "ga": 55
-  },
-  "Levante": {
-    "points": 39,
-    "gf": 44,
-    "ga": 59
-  },
-  "Girona": {
-    "points": 39,
-    "gf": 37,
-    "ga": 52
+    "ga": 57
   },
   "Oviedo": {
     "points": 29,
     "gf": 26,
-    "ga": 54
+    "ga": 57
   }
 }

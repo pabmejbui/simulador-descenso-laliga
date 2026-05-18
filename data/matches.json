@@ -2140,5 +2140,83 @@
     "Mallorca",
     3,
     1
+  ],
+  [
+    "Valencia",
+    "Rayo",
+    1,
+    1
+  ],
+  [
+    "Girona",
+    "Real Sociedad",
+    1,
+    1
+  ],
+  [
+    "Real Madrid",
+    "Oviedo",
+    2,
+    0
+  ],
+  [
+    "Athletic",
+    "Celta",
+    1,
+    1
+  ],
+  [
+    "Atletico",
+    "Girona",
+    1,
+    0
+  ],
+  [
+    "Elche",
+    "Getafe",
+    1,
+    0
+  ],
+  [
+    "Levante",
+    "Mallorca",
+    2,
+    0
+  ],
+  [
+    "Rayo",
+    "Villarreal",
+    2,
+    0
+  ],
+  [
+    "Real Sociedad",
+    "Valencia",
+    3,
+    4
+  ],
+  [
+    "Oviedo",
+    "Alaves",
+    0,
+    1
+  ],
+  [
+    "Osasuna",
+    "Espanyol",
+    1,
+    2
+  ],
+  [
+    "Sevilla",
+    "Real Madrid",
+    0,
+    1
+  ],
+  [
+    "Barcelona",
+    "Betis",
+    3,
+    1
   ]
 ]
